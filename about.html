@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> About me </title>
+</head>
+
+<body>
+<div id="menu"></div> <!--Menu-->
+
+<h2> Hardware </h2>
+<ul>
+    <li> Macbook Pro 14" M1 (Main use)</li>
+    <li> HP Pavilion Notebook (Side-project)</li>
+    <li> Iphone 13 Mini (2nd hand bought from Nhat Anh)</li>
+    <li> Iphone SE 1st Gen (For music)  </li>
+    <li> Kindle Paperwhite </li>
+    <li> Fujifilm X70</li>
+</ul>
+
+<h2> Software </h2>
+<ul>
+    <li> Figma (Design)</li>
+    <li> Affinity Designer, Photo & Publisher (Design)</li>
+    <li> Adobe ai & pts (Sometime)</li>
+    <li> VS Code (Code)</li>
+    <li> Blender</li>
+</ul>
+
+<h2> Favorist Artist </h2>
+<ul>
+    <li> DSK </li>
+    <li> Ye </li>
+
+<small> This website is handmade. Inspired by https://sive.rs/ </small>
+<div id="footer"></div> <!--Footer-->
+<!--Scrip gắn Menu & Footer-->
+<script>
+    fetch("menu.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("menu").innerHTML = html);
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("footer").innerHTML = html);
+  </script>
+<script src="script.js"></script>
+</body>
+    </html>

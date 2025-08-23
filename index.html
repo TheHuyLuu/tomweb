@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> Tom Huy </title>
+</head>
+
+<body>
+<div id="menu"></div> <!--Menu-->
+    <h2> <a href="about.html">About me</a> </h2>
+    <!-- <img src="Images/PictureEveryday.gif" class="avatar"> -->
+    <p> TINKER | EXPERIMENTAL | Test123 | Test 123 </p>
+    <p> I love to create, experiment with different format, this website is one of my experimental and learning with HTML and CSS.</p>
+
+    <h2> <a href="now.html"> What I'm doing now?</a></h2>
+    <p>If you interested, check what I'm doing <a href=now.html> Now </a>.</p>
+
+    <h2> Hobby </h2>
+    <p> I like roadtrip on motorbike, free on road, no push no deadlines. I have a Honda XR125 and had the most memoriable trip <a href="https://youtu.be/6gRjb-kuJJA?si=SjHm00vRGtshPslr">around Vietnam </a> from Hanoi to the South and back to Danang, with more than 4000km and 36 days.
+    </p>
+
+    <h2> <a href="works.html"> Works </a> </h2>
+    <p> I'm a multidisciplanry designer focus on visual branding, now working part-time for <a href="https://www.instagram.com/dinhcollective.index/"> Đīnh Collective </a> and working as creative partner at <a href="https://www.i3-vietnam.com/"> i3 JSC</a>. If you interested in my work, drop a email at huy.graphicdesign@gmail.com.</p>
+
+    <h2> <a href="shop.html"> Merchandise </a></h2>
+    <p> I also design merchandise. Check out some merchandise <a href-"">here</a>:)</p>
+
+    <h2> Blogs </h2>
+    <p> This website is also a place where I can share my thoughts and to experiment with writing. You can find my blogs here. </p> 
+<div id="footer"></div> <!--Footer-->
+
+<!--Scrip gắn Menu & Footer-->
+<script>
+    fetch("menu.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("menu").innerHTML = html);
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("footer").innerHTML = html);
+  </script>
+<script src="script.js"></script>
+    </body>
+</html> 

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> Works </title>
+    </head>
+<body>
+<div id="menu"></div> <!--Menu-->
+<h2>Timeline</h2>
+<ul>
+    <li> 2017 - 2022: Freelance </li>
+    <li> 2020 - Now: i3 JSC (Creative Partner)</li>
+    <li> 2022 - 2023: Studio DUY (Intern Graphic Designer)</li>
+    <li> 2024 - Now: Đīnh Collective (Junior Graphic Designer)</li>
+
+   <h2> Visual Contributions </h2>
+    <div class="works">
+        <div class= "item"><figure><img src="images/M_Creatif.svg">
+            <figcaption> M_Creatif (Prod.) </figcaption></figure> </div>
+        <div class= "item"><a href="works/FINE/FINE.html"><img src="images/FINE.svg" alt="Work 2">
+            <figcaption> FINE (Preschool) </figcaption></figure></a></div>
+        <div class= "item"><figure><img src="images/15years-i3.svg" alt="Work 3">
+            <figcaption> 15 Years i3 JSC </figcaption></figure></div>
+        <div class= "item"><figure><img src="images/eggcademy.svg">
+            <figcaption> Eggcademy (Edu) </figcaption></figure></div>
+        <div class= "item"><figure><img src="images/20Years-i3.svg" alt="Work 2">
+            <figcaption> 20 Years i3 JSC </figcaption></figure></div>
+        <div class= "item"><figure><img src="images/hocbong.svg" alt="Work 3">
+            <figcaption> Madam Diệu Đức Fund </figcaption></figure></div>
+        <div class= "item"><figure><img src="images/i3Logo.svg" alt="Work 3">
+            <figcaption> i3 JSC (Tech) </figcaption></figure></div>
+        <div class= "item"><figure><img src="images/KeychainMXL.svg">
+            <figcaption> RoadCat x Đīnh Co. Keychain </figcaption></figure></div>
+    </div>
+
+<div id="footer"></div> <!--Footer-->
+<!--Scrip gắn Menu & Footer-->
+<script>
+    fetch("menu.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("menu").innerHTML = html);
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("footer").innerHTML = html);
+  </script>
+<script src="script.js"></script>
+    </body>
+</html>
