@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> Shop </title>
+</head>
+
+<body>
+<div id="menu"></div>
+
+<br>
+<img class="img-fit" src="/images/construction.gif">
+<br>
+<br>
+<div style=" text-align: center;">
+<p> UNDER CONSTRUCTION</p>
+<a href="index.html"> Back to home</a>
+</div>
+
+<div id="footer"></div>
+<script>
+    fetch("menu.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("menu").innerHTML = html);
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("footer").innerHTML = html);
+  </script>
+<script src="script.js"></script>
+</body>

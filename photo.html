@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> Photography </title>
+</head>
+
+<body>
+<div id="menu"></div>
+<h2> Photography</h2>
+  <div class="photography">
+    <img src="/images/photography/1.png">
+    <img src="/images/photography/2.png">
+    <img src="/images/photography/3.png">
+    <img src="/images/photography/4.png">
+    <img src="/images/photography/5.png">
+    <img src="/images/photography/6.png">
+    <img src="/images/photography/7.png">
+    </div>
+
+
+
+
+<div id="footer"></div>
+<script>
+    fetch("menu.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("menu").innerHTML = html);
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("footer").innerHTML = html);
+  </script>
+<script src="script.js"></script>
+</body>
