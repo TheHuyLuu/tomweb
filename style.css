@@ -18,10 +18,10 @@ h1 {
 }
 h2{
     margin-top: 25px;
-    margin-bottom: 5pt ;
+    margin-bottom: 8px ;
 }
 p{
-  font-size: 15px;
+  font-size: 11pt;
   line-height: 20px;
 }
 
@@ -32,11 +32,6 @@ figcaption{
   margin: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.caption-text {
-  font-family: monospace;
-  font-size: 9pt;
 }
 
 footer {
@@ -53,8 +48,10 @@ footer {
 li {
   list-style-type: square;
   list-style-position: inside;
-  font-size: smaller;
+  font-size: 11pt;
+  line-height: 20px;
 }
+
 a {
   color: rgb(173, 232, 255); 
   text-decoration: none;
@@ -146,7 +143,7 @@ a:hover {
 }
 .grid.grid2 h2 {margin-top: 0px;}
 
-/* Photography */
+/* Photography & Shop*/
 .photography {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
@@ -155,36 +152,16 @@ a:hover {
 }
 .photography img {
   padding: 15px;
-  max-height:500px;
+  max-height: 500px;
   max-width: 100%;
 }
-
-
-/*
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  width: 100px;
-  background-color: #ffffff;
-  position: fixed;
-  top: 0;
-  left:10px;
-  height: 100vh;
-  padding: 1rem;
-  overflow-y: auto; 
+.photography figure img {
+  padding: 15px;
+  max-height: 500px;
+  max-width: 100%;
+  display: block;
 }
-
-.sidebar-top {
-  flex-shrink: 0;
-}
-.sidebar-info {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-.container {
-   margin-left: 100px;
-  padding: 1rem;}
-  */
+.photography figure {
+  display: inline-block;
+  margin: 15px;
+  text-align: center;}
