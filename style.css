@@ -164,4 +164,19 @@ a:hover {
 .photography figure {
   display: inline-block;
   margin: 15px;
-  text-align: center;}
+  text-align: center;
+}
+
+/* Snapshot*/
+.snapshots {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  position: relative;
+  text-align: center;
+}
+.snapshots img {
+  padding: 5px;
+  margin: 5px;
+  max-height: 370px;
+  max-width: 100%;
+}
