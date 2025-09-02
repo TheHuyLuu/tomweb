@@ -17,6 +17,7 @@ h1 {
     margin:0;
 }
 h2{
+    font-size: 18pt;
     margin-top: 25px;
     margin-bottom: 8px ;
 }
@@ -50,6 +51,12 @@ li {
   list-style-position: inside;
   font-size: 11pt;
   line-height: 20px;
+}
+
+/* Nested list styling */
+ul ul li {
+    list-style-type: square;
+    margin-left: 20px;
 }
 
 a {
@@ -124,7 +131,6 @@ a:hover {
   display: block;
 }
 
-
 /* Showcase */
 .grid { 
   display: grid;
@@ -143,7 +149,7 @@ a:hover {
 }
 .grid.grid2 h2 {margin-top: 0px;}
 
-/* Photography & Shop*/
+/* Photography*/
 .photography {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
@@ -155,15 +161,23 @@ a:hover {
   max-height: 500px;
   max-width: 100%;
 }
-.photography figure img {
-  padding: 15px;
+
+/*Shop*/
+.shop {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  position: relative;
+  text-align: center;
+}
+.shop figure img {
+  padding: 0px;
   max-height: 500px;
   max-width: 100%;
   display: block;
 }
-.photography figure {
+.shop figure {
   display: inline-block;
-  margin: 15px;
+  margin: 5px;
   text-align: center;
 }
 
@@ -179,4 +193,8 @@ a:hover {
   margin: 8px;
   max-height: 370px;
   max-width: calc(100% - 30px);
+}
+
+.trip-title {
+  font-size: 15pt;
 }
