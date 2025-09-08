@@ -28,7 +28,7 @@ p{
 
 figcaption{
   font-family: monospace;
-  font-size: 8pt;
+  font-size: 9pt;
   text-align: center;
   margin: 0px;
   padding-top: 10px;
@@ -44,6 +44,12 @@ footer {
 .menu {
   padding-bottom: 15px;
   border-bottom: 1px solid rgb(104, 104, 104);
+}
+
+.mono {
+  font-size: 8pt;
+  font-family: monospace;
+  line-height: 12pt;
 }
 
 li {
