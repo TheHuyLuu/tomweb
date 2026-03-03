@@ -79,9 +79,9 @@ a:hover {
   }
 
 .img-border {
-  border: 1px solid rgb(104, 104, 104);
-  background-color: aliceblue;
-  padding: 5px;
+  /*border: 1px solid rgb(104, 104, 104);*/
+  background-color: rgb(241, 241, 241);
+  padding: 3px;
 }
 
 .img-fit {
@@ -195,10 +195,11 @@ a:hover {
   text-align: center;
 }
 .snapshots img {
-  padding: 5px;
-  margin: 8px;
-  max-height: 370px;
+  margin: 15px;
+  max-height: 400px;
   max-width: calc(100% - 30px);
+  background-color: rgb(241, 241, 241);
+  padding: 3px;
 }
 
 .trip-title {
